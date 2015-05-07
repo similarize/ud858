@@ -7,11 +7,12 @@ conference.py -- Udacity conference server-side Python App Engine API;
 $Id: conference.py,v 1.25 2014/05/24 23:42:19 wesc Exp wesc $
 
 created by wesc on 2014 apr 21
+edited by Ben on 2015 May 7
 
 """
 
 __author__ = 'wesc+api@google.com (Wesley Chun)'
-
+__contributor__ = 'ben@similarize.com (Ben Despain)'
 
 from datetime import datetime
 import json
