@@ -50,7 +50,7 @@ class HelloWorldApi(remote.Service):
       path = "greetByPeriod", http_method='GET', name = "greetByPeriod")
     def greet_by_period(self, request):
       greet = "Good {} {}".format(request.period, request.name)
-      return Hello(message=greeting)
+      return Hello(greeting=greet)
 
 
 APPLICATION = endpoints.api_server([HelloWorldApi])
